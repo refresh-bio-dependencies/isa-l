@@ -85,7 +85,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <NMakeBuildCommandLine>nmake -f Makefile.nmake</NMakeBuildCommandLine>
-    <NMakeOutput>isa-l-vc.exe</NMakeOutput>
+    <NMakeOutput>isa-l_static.lib</NMakeOutput>
     <NMakeReBuildCommandLine>nmake -f Makefile.nmake</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeCleanCommandLine>nmake -f Makefile.nmake clean</NMakeCleanCommandLine>
