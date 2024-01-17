@@ -68,6 +68,7 @@
     <NMakeReBuildCommandLine>nmake -f Makefile.nmake</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeCleanCommandLine>nmake -f Makefile.nmake clean</NMakeCleanCommandLine>
+    <ExecutablePath>C:\Program Files\NASM;$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <NMakeBuildCommandLine>nmake -f Makefile.nmake</NMakeBuildCommandLine>
@@ -87,6 +88,7 @@
     <NMakeReBuildCommandLine>nmake -f Makefile.nmake</NMakeReBuildCommandLine>
     <NMakePreprocessorDefinitions>NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeCleanCommandLine>nmake -f Makefile.nmake clean</NMakeCleanCommandLine>
+    <ExecutablePath>C:\Program Files\NASM;$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
