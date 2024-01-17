@@ -69,6 +69,7 @@
     <NMakePreprocessorDefinitions>_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeCleanCommandLine>nmake -f Makefile.nmake clean</NMakeCleanCommandLine>
     <ExecutablePath>C:\Program Files\NASM;$(ExecutablePath)</ExecutablePath>
+    <OutDir>$(SolutionDir)</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <NMakeBuildCommandLine>nmake -f Makefile.nmake</NMakeBuildCommandLine>
@@ -89,6 +90,7 @@
     <NMakePreprocessorDefinitions>NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeCleanCommandLine>nmake -f Makefile.nmake clean</NMakeCleanCommandLine>
     <ExecutablePath>C:\Program Files\NASM;$(ExecutablePath)</ExecutablePath>
+    <OutDir>$(SolutionDir)</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
