@@ -26,3 +26,5 @@ isa-l.h
 /libisal.la
 libisal.pc
 programs/igzip
+/x64/Release
+/.vs/isa-l-vc
